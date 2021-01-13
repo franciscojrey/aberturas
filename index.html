@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" alt="">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="#home" class="nav-link">home</a>
+          </li>
+          <li>
+            <a href="#features" class="nav-link">about</a>
+          </li>
+          <li>
+            <a href="#about-us" class="nav-link">projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- javascript -->
+
+    <main>     
+
+      <span class="anchor" id="home"></span>
+      <footer>
+          <div class="contact">
+              <span class="anchor" id="form-span"></span>
+              <div class="contact__box">
+                  <div class="contact__form">
+                      <form action="send_mail.php" method="post" class="form">
+                          <div class="form__header">
+                              <h3 class="form__title uppercase">Consultas</h3>
+                          </div>
+                          
+                          <div class="form-item">
+                              <input type="text" class="form-input" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
+                          </div>
+
+                          <div class="form-item">
+                              <input type="number" class="form-input" name="telefono" placeholder="Teléfono (opcional)" aria-label="telefono" minlength="6">
+                          </div>
+
+                          <div class="form-item">
+                              <input type="text" class="form-input" name="email" placeholder="Email" aria-label="email" required minlength="4">
+                          </div>
+                          
+                          <div class="form-item">
+                              <textarea class="form-input" name="message" placeholder="Mensaje" aria-label="mensaje" required minlength="4"></textarea>
+                          </div>
+                          
+                          <div class="form__item">
+                              <input type="hidden" class="form__input" id="form_name" name="subject" value="Enviado desde www.rmackintosh.com.ar" aria-label="subject" required minlength="2">
+                          </div>
+                          
+                          <button class="form-button uppercase g-recaptcha" type="submit" name="submit" id="submit">Enviar</button>
+                      </form>    
+                  </div>
+                  <div class="contact__container">
+                      <div class="contact__box-info">
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Ubicación</h3>
+                              <h4 class="contact__description">Maipú 692, Piso 5º, Of. "A", Ciudad Autónoma de Buenos Aires</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Email</h3>
+                              <h4 class="contact__description">macki@macki.sba.com.ar</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Teléfonos</h3>
+                              <h4 class="contact__description">4326 9417 (Tel-Fax)</h4>
+                              <h4 class="contact__description">4393 7347</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Legales</h3>
+                              <h4 class="contact__description"><a target="_blank" href="static/pdf/codigo_conducta.pdf">Código de conducta</a></h4>
+                              <h4 class="contact__description"><a target="_blank" href="static/pdf/aranceles.pdf">Aranceles</a></h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <span class="anchor" id="features"></span>
+      <footer>
+          <div class="contact">
+              <span class="anchor" id="form-span"></span>
+              <div class="contact__box">
+                  <div class="contact__form">
+                      <form action="send_mail.php" method="post" class="form">
+                          <div class="form__header">
+                              <h3 class="form__title uppercase">Consultas</h3>
+                          </div>
+                          
+                          <div class="form-item">
+                              <input type="text" class="form-input" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
+                          </div>
+
+                          <div class="form-item">
+                              <input type="number" class="form-input" name="telefono" placeholder="Teléfono (opcional)" aria-label="telefono" minlength="6">
+                          </div>
+
+                          <div class="form-item">
+                              <input type="text" class="form-input" name="email" placeholder="Email" aria-label="email" required minlength="4">
+                          </div>
+                          
+                          <div class="form-item">
+                              <textarea class="form-input" name="message" placeholder="Mensaje" aria-label="mensaje" required minlength="4"></textarea>
+                          </div>
+                          
+                          <div class="form__item">
+                              <input type="hidden" class="form__input" id="form_name" name="subject" value="Enviado desde www.rmackintosh.com.ar" aria-label="subject" required minlength="2">
+                          </div>
+                          
+                          <button class="form-button uppercase g-recaptcha" type="submit" name="submit" id="submit">Enviar</button>
+                      </form>    
+                  </div>
+                  <div class="contact__container">
+                      <div class="contact__box-info">
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Ubicación</h3>
+                              <h4 class="contact__description">Maipú 692, Piso 5º, Of. "A", Ciudad Autónoma de Buenos Aires</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Email</h3>
+                              <h4 class="contact__description">macki@macki.sba.com.ar</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Teléfonos</h3>
+                              <h4 class="contact__description">4326 9417 (Tel-Fax)</h4>
+                              <h4 class="contact__description">4393 7347</h4>
+                          </div>
+                          <div class="contact__info-box">
+                              <h3 class="contact__title uppercase">Legales</h3>
+                              <h4 class="contact__description"><a target="_blank" href="static/pdf/codigo_conducta.pdf">Código de conducta</a></h4>
+                              <h4 class="contact__description"><a target="_blank" href="static/pdf/aranceles.pdf">Aranceles</a></h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
