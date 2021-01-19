@@ -576,21 +576,21 @@ p {
 
 .img-1 {
   grid-area: img1; 
-  background-image: url("/static/img/home1.jpg");
+  background-image: url("static/img/home1.jpg");
 }
 
 .img-2 {
   grid-area: img2;
-  background-image: url("/static/img/home2.jpg"); 
+  background-image: url("static/img/home2.jpg"); 
 }
 
 .img-3 {
   grid-area: img3; 
-  background-image: url("/static/img/home3.jpg");
+  background-image: url("static/img/home3.jpg");
 }
 .img-4 {
   grid-area: img4; 
-  background-image: url("/static/img/home4.jpg");
+  background-image: url("static/img/home4.jpg");
 }
 
 /* --------------- IMAGE GALLERY END --------------- */
