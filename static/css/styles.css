@@ -165,12 +165,12 @@ p {
 
 .icon-whatsapp{
   position: fixed;
-	bottom: 40px;
-	right: 40px;
+	bottom: 20px;
+	right: 20px;
 	text-align:center;
   z-index:100;
   transition: .5s ease all;
-  padding: .5em;
+  padding: .4em;
   border-radius: 50%;
   color:#FFF;
   background-color: #25d366;
