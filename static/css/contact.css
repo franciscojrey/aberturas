@@ -130,6 +130,7 @@ textarea {
     }
 
     .form {
+        padding: 3em;
         max-width: none;
     }
 

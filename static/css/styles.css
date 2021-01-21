@@ -65,12 +65,9 @@ Variables
   --clr-main-color: rgba(47, 111, 134, 0.479);
   --clr-main-color-dark: rgb(42, 96, 117);
   --clr-primary-3: rgb(16, 65, 85);
+  --clr-primary-4: rgb(8, 126, 173);
   --clr-primary-5: hsl(205, 78%, 60%);
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
@@ -489,7 +486,9 @@ p {
 }
 
 .gallery-btn {
-  color: black;
+  color: var(--clr-primary-4);
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 .gallery {
@@ -623,7 +622,7 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-  .section-center {
+.section-center {
     width: 95vw;
   }
 }
@@ -690,6 +689,13 @@ nav {
   height: 10rem;
 }
 @media screen and (min-width: 800px) {
+
+  .icon-whatsapp{
+    bottom: 60px;
+    right: 60px;
+    padding: .5em;
+  }
+
   .nav-center {
     max-width: 1170px;
     margin: 0 auto;
