@@ -121,7 +121,7 @@ textarea {
 
 @media only screen and (min-width: 860px) {
 
-    /* --------------- FOOTER BIG SCREEN START --------------- */
+    /* --------------- CONTACT BIG SCREEN START --------------- */
         
     .contact-form {
         padding: 4em;
@@ -148,6 +148,6 @@ textarea {
         font-size: .7rem;
     }
 
-    /* --------------- FOOTER BIG SCREEN END --------------- */
+    /* --------------- CONTACT BIG SCREEN END --------------- */
 
 }

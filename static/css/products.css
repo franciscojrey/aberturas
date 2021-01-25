@@ -1,0 +1,110 @@
+/* --------------- PRODUCTS-ONLY START --------------- */
+
+.products-only-container {
+    background-color: rgba(179, 179, 179, 0.178);
+    padding: 4em 2em 6em 2em;
+  }
+  
+  .products-only {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "box1"
+    "box2"
+    "box3"
+  }
+  
+  .products-only__title {
+    margin-bottom: 2em;
+    font-size: 1.3rem;
+    font-family: OpenSans;
+    color: var(--clr-black);
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .product-only__box1 { grid-area: box1; }
+  .product-only__box2 { grid-area: box2; }
+  .product-only__box3 { grid-area: box3; }
+  
+  .product-only__box {
+    background: var(--clr-white);
+    transition: all .5s ease-out;
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "img"
+    "description"
+  }
+  
+  .product-only__img {
+    grid-area: img;
+  }
+  
+  .product-only__box img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .product-only__description {
+    padding: 1em;
+    grid-area: description;
+  }
+  
+  .product-only__box h4 {
+    grid-area: title;
+    color: var(--clr-black);
+    font-size: .8rem;
+    padding-top: .5em;
+    font-family: Quicksand;
+    letter-spacing: 4px;
+  }
+  
+  .product-only__box-description {
+    grid-area: description;
+    font-family: Quicksand;
+    padding-top: 1em;
+    font-size: .7rem;
+    color: var(--clr-black);
+    line-height: 1.2rem;
+    letter-spacing: 1.5px;
+  }
+
+  /* --------------- PRODUCTS-ONLY END --------------- */
+
+  @media screen and (min-width: 800px) {
+
+    /* --------------- PRODUCTS-ONLY BIG SCREEN START --------------- */
+
+  .products-only {
+    padding: 0 2em;
+    max-width: 1300px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "box1 box2 box3"
+  }
+
+  .products-only__title {
+    font-size: 1.6rem;
+  }
+
+  .product-only__box h4 {
+    padding-top: 0;
+    font-size: 1rem;
+  }
+  
+  .product-only__box-description {
+    padding: 0;
+    font-size: .7rem;
+    letter-spacing: 1px;
+  }
+
+  /* --------------- PRODUCTS-ONLY BIG SCREEN END --------------- */
+}
