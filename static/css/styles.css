@@ -577,8 +577,8 @@ nav {
 }
 
 .full-img {
+  width: 90%;
   position: absolute;
-  height: 70%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) scale(.5);
@@ -589,7 +589,7 @@ nav {
   transform: translate(-50%,-50%) scale(1);
 }
 
-.zindex15{
+.zindex15 {
   z-index: 15;
 }
 /* --------------- GALLERY END --------------- */
@@ -887,6 +887,11 @@ footer {
 
   .img-1 {
     min-height: 31.5rem;
+  }
+
+  .full-img {
+    height: 70%;
+    width: auto;
   }
 
   /* --------------- GALLERY BIG SCREEN END --------------- */
