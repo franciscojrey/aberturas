@@ -171,6 +171,60 @@ p {
 
 /* --------------- WHATSAPP LOGO END --------------- */
 
+/* --------------- NAVBAR START --------------- */
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-main-color-dark);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 60px;
+}
+.links a {
+  color: var(--clr-black);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 2rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.5rem;
+}
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links {
+  height: 10rem;
+}
+
+/* --------------- NAVBAR END --------------- */
+
 /* --------------- HOME START --------------- */
 
 #home {
@@ -534,6 +588,10 @@ p {
 .full-img.open{
   transform: translate(-50%,-50%) scale(1);
 }
+
+.zindex15{
+  z-index: 15;
+}
 /* --------------- GALLERY END --------------- */
 
 /* --------------- SECOIN-LINK START --------------- */
@@ -678,61 +736,6 @@ footer {
     place-items: center;
   }
 
-/*
-=============== 
-Navbar
-===============
-*/
-nav {
-  background: var(--clr-white);
-  box-shadow: var(--light-shadow);
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-.nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-.nav-toggle {
-  font-size: 1.5rem;
-  color: var(--clr-main-color-dark);
-  background: transparent;
-  border-color: transparent;
-  transition: var(--transition);
-  cursor: pointer;
-}
-.nav-toggle:hover {
-  color: var(--clr-primary-1);
-  transform: rotate(90deg);
-}
-.logo {
-  height: 60px;
-}
-.links a {
-  color: var(--clr-black);
-  font-size: .8rem;
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
-  display: block;
-  padding: 0.5rem 2rem;
-  transition: var(--transition);
-}
-.links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
-  padding-left: 1.5rem;
-}
-.links {
-  height: 0;
-  overflow: hidden;
-  transition: var(--transition);
-}
-.show-links {
-  height: 10rem;
-}
 @media screen and (min-width: 800px) {
 
   .icon-whatsapp{

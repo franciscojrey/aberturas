@@ -13,12 +13,13 @@
   
   .gallery-only__title {
     width: 100%;
+    text-transform: uppercase;
     text-align: center;
     font-size: 1.3rem;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     line-height: 1.5em;
-    text-transform: uppercase;
     color: var(--clr-white);
+    font-family: OpenSans;
   }
   
   .gallery-only {
