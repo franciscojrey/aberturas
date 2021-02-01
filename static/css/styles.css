@@ -585,6 +585,7 @@ nav {
   transition: all .25s ease-out;
 }
 
+
 .full-img.open{
   transform: translate(-50%,-50%) scale(1);
 }
