@@ -73,13 +73,60 @@
       <img src="static/img/home1.jpg" alt="" class="full-img">
     </div>
 
+    <span class="anchor" id="contact"></span>
     <footer>
-        <div class="contact">
-        <h2 class="contact__title">Consultas</h2>
-        <p class="contact__info">Email</p>
-        <p class="contact__info">Teléfono</p>
-        <p class="contact__info"><a class="contact__link" href="contact.html">Solicitá tu presupuesto</a></p>
-        </div>
+      <div class="contact">
+          <span class="anchor" id="form-span"></span>
+          <div class="contact__box">
+              <div class="contact__form">
+                  <form action="send_mail.php" method="post" class="form">
+                      <div class="form__header">
+                          <h3 class="form__title uppercase">Consultas</h3>
+                      </div>
+                      
+                      <div class="form-item">
+                          <input type="text" class="form-input" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
+                      </div>
+  
+                      <div class="form-item">
+                          <input type="number" class="form-input" name="telefono" placeholder="Teléfono (opcional)" aria-label="telefono" minlength="6">
+                      </div>
+  
+                      <div class="form-item">
+                          <input type="text" class="form-input" name="email" placeholder="Email" aria-label="email" required minlength="4">
+                      </div>
+                      
+                      <div class="form-item">
+                          <textarea class="form-input" name="message" placeholder="Mensaje" aria-label="mensaje" required minlength="4"></textarea>
+                      </div>
+                      
+                      <div class="form__item">
+                          <input type="hidden" class="form__input" id="form_name" name="subject" value="Enviado desde www.rmackintosh.com.ar" aria-label="subject" required minlength="2">
+                      </div>
+                      
+                      <button class="form-button uppercase g-recaptcha" type="submit" name="submit" id="submit">Enviar</button>
+                  </form>    
+              </div>
+              <div class="contact__container">
+                  <div class="contact__box-info">
+                      <div class="contact__info-box">
+                          <h4 class="contact__description">Zuviría 2000, Caba</h4>
+                      </div>
+                      <div class="contact__info-box">
+                          <h4 class="contact__description">ejemplo@ejemplo.com.ar</h4>
+                      </div>
+                      <div class="contact__info-box">
+                          
+                          <h4 class="contact__description">2222 2222</h4>
+                          <h4 class="contact__description">2222 2222</h4>
+                      </div>
+                      <div class="contact__info-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.651775893313!2d-58.45261248476938!3d-34.638239180450576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbcd4176f371%3A0x6de9f86e05a24042!2sZuvir%C3%ADa%20%26%20Av.%20Carabobo%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1612272627286!5m2!1sen!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     </footer>
 
   <!-- JAVASCRIPT -->
