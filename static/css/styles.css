@@ -225,6 +225,146 @@ p {
 
 /* --------------- HOME END --------------- */
 
+/* --------------- PRODUCTS START --------------- */
+
+
+.products {
+  width: 80%;
+  height: 1550px;
+  position: relative;
+  margin: 100px auto;
+  overflow: hidden;
+  max-width: 1200px;
+}
+.btn-box{
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.btn-box button {
+  font-family: Raleway-Light;
+  width: 100%;
+  background: rgba(224, 224, 224, 0.445);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: .5em;
+  color: rgb(131, 131, 131);
+  transition: ease-in-out .2s;
+}
+.btn-box button:hover {
+  background: rgba(161, 161, 161, 0.445);
+}
+.content-right img {
+  width: 350px;
+}
+.content{
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: .3s;
+}
+.content-left{
+  flex-basis: 50%;
+}
+.content-left p{
+  font-size: 13px;
+  padding: 30px 0;
+}
+.content-right{
+  flex-basis: 50%;
+  text-align: center;
+}
+#content1{
+  transform: translateX(0px);
+}
+
+/* --------------- PRODUCTS END --------------- */
+
+/* --------------- PRODUCTS 3 START --------------- */
+#content3{
+  width: 100%;
+  display: grid;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: .3s;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "title"
+  "text"
+  "img"
+}
+
+#content3 h1 {
+  padding-bottom: 1em;
+  width: 100%;
+  grid-area: title;
+}
+#content3 p {
+  font-size: .8rem;
+  padding:2em 0;
+  grid-area: text;
+}
+#content3 img {
+  width: 100px;
+  grid-area: img;
+}
+/* --------------- PRODUCTS 3 END --------------- */
+
+/* --------------- PRODUCTS 4 START --------------- */
+#content4{
+  width: 100%;
+  display: grid;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: .3s;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "title"
+  "text"
+  "img"
+  "title2"
+  "text2"
+  "img2"
+}
+
+.content4-title {
+  padding-bottom: 1em;
+  width: 100%;
+  grid-area: title;
+}
+.content4-text {
+  font-size: .8rem;
+  padding: 2em 0;
+  grid-area: text;
+}
+.content4-img {
+  width: 100px;
+  grid-area: img;
+}
+.content4-title2 {
+  padding-bottom: 1em;
+  width: 100%;
+  grid-area: title2;
+}
+.content4-text2 {
+  font-size: .8rem;
+  padding: 2em 0;
+  grid-area: text2;
+}
+.content4-img2 {
+  width: 100px;
+  grid-area: img2;
+}
+/* --------------- PRODUCTS 4 END --------------- */
+
 /* --------------- MAP START --------------- */
 
 .map {
@@ -320,6 +460,68 @@ p {
   }
 
 /* --------------- HOME BIG SCREEN END --------------- */
+
+/* --------------- PRODUCTS BIG SCREEN START --------------- */
+
+.btn-box{
+  display: flex;
+  justify-content: space-between;
+}
+.btn-box button {
+  width: auto;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+.btn-box button:last-child{
+  margin-right: 0;
+}
+
+/* --------------- PRODUCTS BIG SCREEN END --------------- */
+
+/* --------------- PRODUCTS 3 BIG SCREEN  START --------------- */
+#content3{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "title ."
+  "img text"
+}
+
+#content3 p {
+  font-size: .8rem;
+}
+#content3 img {
+  width: 300px;
+}
+/* --------------- PRODUCTS 3 BIG SCREEN END --------------- */
+
+/* --------------- PRODUCTS 4 BIG SCREEN START --------------- */
+#content4{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "title ."
+  "text img"
+  "title2 ."
+  "text2 img2"
+}
+
+.content4-text {
+  font-size: .9rem;
+  padding: 0;
+}
+.content4-img {
+  width: 200px;
+}
+.content4-title2{
+  padding-top: 2em;
+}
+.content4-text2 {
+  font-size: .9rem;
+  padding: 0;
+}
+.content4-img2 {
+  width: 200px;
+}
+/* --------------- PRODUCTS 4 BIG SCREEN END --------------- */
 
 }
 
