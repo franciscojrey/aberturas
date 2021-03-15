@@ -1,3 +1,5 @@
+/* TAB GENERAL */
+
 var content1 = document.getElementById("content1");
 var content2 = document.getElementById("content2");
 var content3 = document.getElementById("content3");
@@ -154,3 +156,11 @@ function openFifth(){
     content4.style.transitionDelay = "0s"
     content5.style.transitionDelay = ".3s"
 }
+
+
+
+/* TAB CONTENT 5 */
+
+var btn1content5 = document.getElementById("content5-btn1");
+var btn2content5 = document.getElementById("content5-btn2");
+var btn3content5 = document.getElementById("content5-btn3");
