@@ -272,9 +272,13 @@ p {
 .content-left{
   flex-basis: 50%;
 }
+.content-left h1{
+  font-family: Raleway-Light;
+}
 .content-left p{
   font-size: 13px;
   padding: 30px 0;
+  font-family: Raleway-Light;
 }
 .content-right{
   flex-basis: 50%;
@@ -305,6 +309,7 @@ p {
   padding-bottom: 1em;
   width: 100%;
   grid-area: title;
+  font-family: Raleway-Light;
 }
 #content3 p {
   font-size: .8rem;
@@ -339,11 +344,13 @@ p {
   padding-bottom: 1em;
   width: 100%;
   grid-area: title;
+  font-family: Raleway-Light;
 }
 .content4-text {
   font-size: .8rem;
   padding: 2em 0;
   grid-area: text;
+  font-family: Raleway-Light;
 }
 .content4-img {
   width: 100px;
@@ -353,11 +360,13 @@ p {
   padding-bottom: 1em;
   width: 100%;
   grid-area: title2;
+  font-family: Raleway-Light;
 }
 .content4-text2 {
   font-size: .8rem;
   padding: 2em 0;
   grid-area: text2;
+  font-family: Raleway-Light;
 }
 .content4-img2 {
   width: 100px;
