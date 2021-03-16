@@ -169,19 +169,46 @@ var btn2content5 = document.getElementById("content5-btn2");
 var btn3content5 = document.getElementById("content5-btn3");
 
 function openFirstContent5(){
+    btn1content5.style.color ="rgb(55, 96, 121)";
+    btn2content5.style.color ="rgb(131, 131, 131)";
+    btn3content5.style.color ="rgb(131, 131, 131)";
+    btn1content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
+    btn2content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn3content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";    
     content5First.style.transform = "translateX(0)";
     content5Second.style.transform = "translateX(100%)";
     content5Third.style.transform = "translateX(100%)";
+    content5First.style.transitionDelay = ".3s"
+    content5Second.style.transitionDelay = "0s"
+    content5Third.style.transitionDelay = "0s"
 }
 
 function openSecondContent5(){
+    btn1content5.style.color ="rgb(131, 131, 131)";
+    btn2content5.style.color ="rgb(55, 96, 121)";
+    btn3content5.style.color ="rgb(131, 131, 131)";
+    btn1content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn2content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
+    btn3content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";    
     content5First.style.transform = "translateX(100%)";
     content5Second.style.transform = "translateX(0)";
     content5Third.style.transform = "translateX(100%)";
+    content5First.style.transitionDelay = "0s"
+    content5Second.style.transitionDelay = ".3s"
+    content5Third.style.transitionDelay = "0s"
 }
 
 function openThirdContent5(){
+    btn1content5.style.color ="rgb(131, 131, 131)";
+    btn2content5.style.color ="rgb(131, 131, 131)";
+    btn3content5.style.color ="rgb(55, 96, 121)";
+    btn1content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn2content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn3content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";    
     content5First.style.transform = "translateX(100%)";
     content5Second.style.transform = "translateX(100%)";
     content5Third.style.transform = "translateX(0)";
+    content5First.style.transitionDelay = "0s"
+    content5Second.style.transitionDelay = "0s"
+    content5Third.style.transitionDelay = ".3s"
 }

@@ -227,12 +227,11 @@ p {
 
 /* --------------- PRODUCTS START --------------- */
 
-
 .products {
   width: 80%;
   height: 1550px;
   position: relative;
-  margin: 100px auto;
+  margin: 0 auto;
   overflow: hidden;
   max-width: 1200px;
 }
@@ -377,15 +376,14 @@ p {
 /* --------------- PRODUCTS 5 START --------------- */
 #content5{
   width: 100%;
-  display: grid;
   margin: 5% auto;
   position: absolute;
   transform: translateX(100%);
   transition: .3s;
 }
 .content5-btn-box{
+  text-align: center;
   display: block;
-  border-bottom: 1px solid #ccc;
 }
 .content5-btn-box button {
   font-family: Raleway-Light;
@@ -401,13 +399,27 @@ p {
   color: rgb(131, 131, 131);
   transition: ease-in-out .2s;
 }
+.carousel-container{
+  margin: 0 auto;
+}
+.content5-box h1{
+  font-family: Quicksand;
+  font-size: .9rem;
+}
+.content5-box p {
+  font-family: Raleway-Light;
+  font-size: .7rem;
+}
+.content5-img{
+  width: 200px;
+}
 #content5First{
   width: 100%;
   display: grid;
   margin: 5% auto;
   position: absolute;
   transform: translateX(0px);
-  transition: .5s;
+  transition: .3s;
 }
 #content5Second{
   width: 100%;
@@ -415,7 +427,7 @@ p {
   margin: 5% auto;
   position: absolute;
   transform: translateX(100%);
-  transition: .5s;
+  transition: .3s;
 }
 #content5Third{
   width: 100%;
@@ -423,8 +435,20 @@ p {
   margin: 5% auto;
   position: absolute;
   transform: translateX(100%);
-  transition: .5s;
+  transition: .3s;
 }
+.content5-next-arrow{
+  background-image:none;
+}
+ 
+ .content5-previous-arrow{
+   background-image: none;
+ }
+
+ .arrow-previous,
+ .arrow-next {
+   color: black;
+ }
 /* --------------- PRODUCTS 5 START --------------- */
 
 /* --------------- MAP START --------------- */
@@ -583,10 +607,6 @@ p {
 /* --------------- PRODUCTS 4 BIG SCREEN END --------------- */
 
 /* --------------- PRODUCTS 5 BIG SCREEN START --------------- */
-
-#content5{
-
-}
 .content5-btn-box{
   margin: 0 auto;
 }
@@ -594,6 +614,9 @@ p {
   width: auto;
   margin-bottom: 0;
   border-radius: 5px 5px 0 0;
+}
+.content5-img{
+  width: 100%;
 }
 
 /* --------------- PRODUCTS 5 BIG SCREEN END --------------- */
