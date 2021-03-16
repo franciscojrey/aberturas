@@ -401,7 +401,30 @@ p {
   color: rgb(131, 131, 131);
   transition: ease-in-out .2s;
 }
-
+#content5First{
+  width: 100%;
+  display: grid;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(0px);
+  transition: .5s;
+}
+#content5Second{
+  width: 100%;
+  display: grid;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: .5s;
+}
+#content5Third{
+  width: 100%;
+  display: grid;
+  margin: 5% auto;
+  position: absolute;
+  transform: translateX(100%);
+  transition: .5s;
+}
 /* --------------- PRODUCTS 5 START --------------- */
 
 /* --------------- MAP START --------------- */

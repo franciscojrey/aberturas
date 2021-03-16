@@ -161,6 +161,27 @@ function openFifth(){
 
 /* TAB CONTENT 5 */
 
+var content5First = document.getElementById("content5First");
+var content5Second = document.getElementById("content5Second");
+var content5Third = document.getElementById("content5Third");
 var btn1content5 = document.getElementById("content5-btn1");
 var btn2content5 = document.getElementById("content5-btn2");
 var btn3content5 = document.getElementById("content5-btn3");
+
+function openFirstContent5(){
+    content5First.style.transform = "translateX(0)";
+    content5Second.style.transform = "translateX(100%)";
+    content5Third.style.transform = "translateX(100%)";
+}
+
+function openSecondContent5(){
+    content5First.style.transform = "translateX(100%)";
+    content5Second.style.transform = "translateX(0)";
+    content5Third.style.transform = "translateX(100%)";
+}
+
+function openThirdContent5(){
+    content5First.style.transform = "translateX(100%)";
+    content5Second.style.transform = "translateX(100%)";
+    content5Third.style.transform = "translateX(0)";
+}
