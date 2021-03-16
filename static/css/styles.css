@@ -254,7 +254,7 @@ p {
   transition: ease-in-out .2s;
 }
 .btn-box button:hover {
-  background: rgba(161, 161, 161, 0.445);
+  background: rgba(161, 161, 161, 0.445) !important;
 }
 .content-right img {
   width: 350px;
@@ -398,6 +398,9 @@ p {
   margin-bottom: .5em;
   color: rgb(131, 131, 131);
   transition: ease-in-out .2s;
+}
+.content5-btn-box button:hover{
+  background: rgba(161, 161, 161, 0.445) !important;
 }
 .carousel-container{
   margin: 0 auto;
