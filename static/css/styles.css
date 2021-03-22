@@ -285,7 +285,7 @@ p {
 
 .products {
   width: 80%;
-  height: 1550px;
+  height: 1500px;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
@@ -632,7 +632,9 @@ p {
 /* --------------- SERVICES BIG SCREEN END --------------- */
 
 /* --------------- PRODUCTS BIG SCREEN START --------------- */
-
+.products {
+  height: 1000px;
+}
 .btn-box{
   display: flex;
   justify-content: space-between;
