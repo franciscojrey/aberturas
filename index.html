@@ -37,7 +37,7 @@
             <a href="#home" class="nav-link">Inicio</a>
           </li>
           <li>
-            <a href="services.html" class="nav-link">Servicios</a>
+            <a href="aperturas.html" class="nav-link">Servicios</a>
           </li>
           <li>
             <a href="#products" class="nav-link">Productos</a>
@@ -49,48 +49,95 @@
       </div>
     </nav>
 
-      <section id="home">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" style="background-image: url(static/img/home1.png);">
-                    <div class="carousel-caption text-center">
-                        <h1>Ventanas de aluminio</h1>
-                        <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
-                    </div>
+    <section id="home">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item carousel-item-home active" style="background-image: url(static/img/home1.png);">
+                  <div class="carousel-caption text-center">
+                      <h1 id="home-title">Ventanas de aluminio</h1>
+                      <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
+                  </div>
+              </div>
+              <div class="carousel-item carousel-item-home" style="background-image: url(static/img/home2.png);">
+                  <div class="carousel-caption text-center">
+                      <h1>Cerramientos</h1>
+                      <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
+                  </div>
+              </div>
+              <div class="carousel-item carousel-item-home" style="background-image: url(static/img/home3.png);">
+                  <div class="carousel-caption text-center">
+                      <h1>Recambio</h1>
+                      <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
+                  </div>
+              </div>
+              <div class="carousel-item carousel-item-home" style="background-image: url(static/img/home4.png);">
+                  <div class="carousel-caption text-center">
+                      <h1>Obras</h1>
+                      <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon content5-previous-arrow" aria-hidden="true"><i class="fas fa-arrow-left arrow-previous" id="arrow-left-home"></i></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon content5-next-arrow" aria-hidden="true"><i class="fas fa-arrow-right arrow-next" id="arrow-right-home"></i></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+      </div>
+  </section>
+
+
+    <section class="services">
+      <div class="carousel-container ">
+        <div class="carousel__block ">
+          <div id="carouselExampleControls1" class="carousel slide " data-ride="carousel">
+              <div class="carousel-inner ">
+                <div class="carousel-item active services__carousel">
+                  <img src="static/img/tab.jpg" class="d-block w-100 services__img" alt="...">
                 </div>
-                <div class="carousel-item" style="background-image: url(static/img/home2.png);">
-                    <div class="carousel-caption text-center">
-                        <h1>Cerramientos</h1>
-                        <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
-                    </div>
+                <div class="carousel-item">
+                  <img src="static/img/tab.jpg" class="d-block w-100 services__img" alt="...">
                 </div>
-                <div class="carousel-item" style="background-image: url(static/img/home3.png);">
-                    <div class="carousel-caption text-center">
-                        <h1>Recambio</h1>
-                        <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
-                    </div>
+                <div class="carousel-item">
+                  <img src="static/img/tab.jpg" class="d-block w-100 services__img" alt="...">
                 </div>
-                <div class="carousel-item" style="background-image: url(static/img/home4.png);">
-                    <div class="carousel-caption text-center">
-                        <h1>Obras</h1>
-                        <a href="#" class="btn btn-outline-light btn-lg">Ver más</a>
-                    </div>
+                <div class="carousel-item">
+                  <img src="static/img/tab.jpg" class="d-block w-100 services__img" alt="...">
                 </div>
-                <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
-            </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon content5-previous-arrow" aria-hidden="true"><i class="fas fa-arrow-left arrow-previous"></i></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon content5-next-arrow" aria-hidden="true"><i class="fas fa-arrow-right arrow-next"></i></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
         </div>
+      </div>
+      <div class="services-description">
+        <h2>Fábrica de aperturas</h2>
+        <h4>Texto gral 1</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque provident aspernatur accusantium beatae, repellendus sapiente obcaecati architecto rerum error consectetur placeat id vitae libero officiis consequuntur nihil voluptatem natus.</p>
+      </div>
+      <a class="btn-contact" href="#contact">Asesoramiento a profesionales - trabajos sobre planos</a> 
+      <a class="btn-services" href="services.html">Tipos de aberturas</a> 
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="products-container">
       <div class="products">
         <div class="btn-box">
@@ -152,40 +199,6 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
               <div class="carousel-container">
                     <div class="carousel__block">
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
-                              </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon content5-previous-arrow" aria-hidden="true"><i class="fas fa-arrow-left arrow-previous"></i></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon content5-next-arrow" aria-hidden="true"><i class="fas fa-arrow-right arrow-next"></i></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-              </div>
-            </div>
-
-          <div class="content5-box" id="content5Second">
-            <h1>Postigones</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
-              <div class="carousel-container">
-                    <div class="carousel__block">
                         <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active">
@@ -214,8 +227,8 @@
               </div>
             </div>
 
-          <div class="content5-box" id="content5Third">
-            <h1>Mosquiteros</h1>
+          <div class="content5-box" id="content5Second">
+            <h1>Postigones</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
               <div class="carousel-container">
@@ -240,6 +253,40 @@
                               <span class="sr-only">Previous</span>
                             </a>
                             <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon content5-next-arrow" aria-hidden="true"><i class="fas fa-arrow-right arrow-next"></i></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+              </div>
+            </div>
+
+          <div class="content5-box" id="content5Third">
+            <h1>Mosquiteros</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
+              <div class="carousel-container">
+                    <div class="carousel__block">
+                        <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="static/img/tab.jpg" class="d-block w-100 content5-img" alt="...">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon content5-previous-arrow" aria-hidden="true"><i class="fas fa-arrow-left arrow-previous"></i></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
                               <span class="carousel-control-next-icon content5-next-arrow" aria-hidden="true"><i class="fas fa-arrow-right arrow-next"></i></span>
                               <span class="sr-only">Next</span>
                             </a>

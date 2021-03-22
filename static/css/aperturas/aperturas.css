@@ -1,24 +1,20 @@
-/* --------------- SERVICES START --------------- */
+/* --------------- APERTURAS START --------------- */
 
-#home {
-    height: 100vh;
-}
-
-.services {
+.aperturas {
     width:90%;
     margin: 0 auto;
     text-align: left;
     padding-top: 10em
 }
 
-.services__title {
+.aperturas__title {
     text-align: center;
     font-family: Raleway-Light;
     font-size: 1.3rem;
     margin-bottom: 1em;
 }
 
-.services__box {
+.aperturas__box {
     padding-top: 1em;
     border-top: 1px solid rgb(202, 202, 202);
     display: inline-grid;
@@ -34,7 +30,7 @@
     "container"
 }
 
-.services__box-title {
+.aperturas__box-title {
     grid-area: title;
     margin-bottom: 1rem;
     color: var(--clr-black);
@@ -43,15 +39,15 @@
     line-height: 1.4rem;
 }
 
-.services__img { 
+.aperturas__img { 
     grid-area: img; 
     max-width: 400px;
     margin: 0 auto;
     width: 100%;
 }
-.services__container { grid-area: container; }
+.aperturas__container { grid-area: container; }
 
-.services__description {
+.aperturas__description {
     margin-bottom: 1rem;
     color: var(--clr-black);
     font-family: Raleway-Light;
@@ -59,32 +55,32 @@
     line-height: 1.4rem;
 }
 
-/* --------------- SERVICES END --------------- */
+/* --------------- APERTURAS END --------------- */
 @media screen and (min-width: 800px) {
-    /* --------------- SERVICES BIG SCREEN START --------------- */
+    /* --------------- APERTURAS BIG SCREEN START --------------- */
 
-    .services {
+    .aperturas {
         max-width: 1100px;
     }
 
-    .services__box {
+    .aperturas__box {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
         "title ."
         "img container"
     }
 
-    .services__title {
+    .aperturas__title {
         font-size: 2.5rem;
     }
 
-    .services__box-title {
+    .aperturas__box-title {
         font-size: 1rem;
     }
 
-    .services__description {
+    .aperturas__description {
         font-size: .7rem;
     }
 
-    /* --------------- SERVICES BIG SCREEN END --------------- */
+    /* --------------- APERTURAS BIG SCREEN END --------------- */
 }

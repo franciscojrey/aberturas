@@ -171,14 +171,13 @@ p {
 
 /* --------------- WHATSAPP LOGO END --------------- */
 
-
 /* --------------- HOME START --------------- */
 
 #home {
   padding: 0;
 }
 
-.carousel-item {
+.carousel-item-home {
   height: 100vh;
 }
 
@@ -199,6 +198,7 @@ p {
   letter-spacing: .15rem;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 3em;
+  color: white;
 }
 
 .btn-lg {
@@ -222,8 +222,64 @@ p {
 .carousel-control-next {
   display: none;
 }
+#arrow-left-home,
+#arrow-right-home{
+  color: white;
+  font-size: 1.5rem;
+}
 
 /* --------------- HOME END --------------- */
+
+/* --------------- SERVICES START --------------- */
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "carousel"
+  "description"
+  "btn-contact"
+  "btn-services";
+}
+.services .carousel-container{
+  grid-area: carousel;
+}
+.carousel__block {
+  max-width: 500px;
+}
+.services-description {
+  grid-area: description
+}
+.services-description h2{
+  font-family: Quicksand;
+}
+.services-description h4{
+  font-family: Raleway-Light;
+}
+.services-description p{
+  font-family: Raleway-Light;
+}
+.btn-contact {
+  grid-area: btn-contact;
+  border-radius: 9px;
+  padding: 1em;
+  color: white;
+  font-family: Quicksand;
+  background: rgb(38, 98, 167);
+  text-align: center;
+}
+.btn-services {
+  grid-area: btn-services;
+  margin-top: 2em;
+  border-radius: 9px;
+  padding: 1em;
+  color: white;
+  font-family: Quicksand;
+  background: rgb(38, 98, 167);
+  text-align: center;
+}
+
+/* --------------- SERVICES END --------------- */
 
 /* --------------- PRODUCTS START --------------- */
 
@@ -290,6 +346,7 @@ p {
 /* --------------- PRODUCTS END --------------- */
 
 /* --------------- PRODUCTS 3 START --------------- */
+
 #content3{
   width: 100%;
   display: grid;
@@ -319,9 +376,11 @@ p {
   width: 100px;
   grid-area: img;
 }
+
 /* --------------- PRODUCTS 3 END --------------- */
 
 /* --------------- PRODUCTS 4 START --------------- */
+
 #content4{
   width: 100%;
   display: grid;
@@ -371,9 +430,11 @@ p {
   width: 100px;
   grid-area: img2;
 }
+
 /* --------------- PRODUCTS 4 END --------------- */
 
 /* --------------- PRODUCTS 5 START --------------- */
+
 #content5{
   width: 100%;
   margin: 5% auto;
@@ -452,6 +513,7 @@ p {
  .arrow-next {
    color: black;
  }
+ 
 /* --------------- PRODUCTS 5 START --------------- */
 
 /* --------------- MAP START --------------- */
@@ -517,38 +579,57 @@ p {
     padding: .5em;
   }
 
-  
-  /* --------------- HOME BIG SCREEN START --------------- */
+/* --------------- HOME BIG SCREEN START --------------- */
 
-  .carousel-item {
-    height: 100vh;
-  }
+.carousel-item-home {
+  height: 100vh;
+}
 
-  .carousel-caption {
-    max-width: 1100px;
-    margin: 0 auto;
-    top: 38%;
-    text-align: left;
-    padding: 0 6em;
-  }
+.carousel-caption {
+  max-width: 1100px;
+  margin: 0 auto;
+  top: 38%;
+  text-align: left;
+  padding: 0 6em;
+}
 
-  .carousel-caption h1 {
-    font-size: 3rem;
-    letter-spacing: .3rem;
-    padding-bottom: 4rem;
-  }
+.carousel-caption h1 {
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  padding-bottom: 4rem;
+}
 
-  .btn-lg {
-    font-size: 1.1rem;
-  }
+.btn-lg {
+  font-size: 1.1rem;
+}
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    display:-ms-flexbox;
-    display:flex;
-  }
+.carousel-control-prev,
+.carousel-control-next {
+  display:-ms-flexbox;
+  display:flex;
+}
 
 /* --------------- HOME BIG SCREEN END --------------- */
+
+/* --------------- SERVICES BIG SCREEN START --------------- */
+
+.services {
+  max-width: 800px;
+  margin: 0 auto;
+  grid-gap: 2em;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: 
+  "carousel description"
+  "btn-contact btn-services";
+}
+.btn-services{
+  align-items: center;
+  margin-top: 0;
+}
+.btn-contact{
+}
+
+/* --------------- SERVICES BIG SCREEN END --------------- */
 
 /* --------------- PRODUCTS BIG SCREEN START --------------- */
 
@@ -565,6 +646,7 @@ p {
 /* --------------- PRODUCTS BIG SCREEN END --------------- */
 
 /* --------------- PRODUCTS 3 BIG SCREEN  START --------------- */
+
 #content3{
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
