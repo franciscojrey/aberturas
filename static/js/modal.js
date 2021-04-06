@@ -1,4 +1,4 @@
-const previews = document.querySelectorAll('.gallery img');
+/*const previews = document.querySelectorAll('.gallery img');
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
@@ -34,4 +34,4 @@ function closeModal(modal) {
   if (modal == null) return
   modal.classList.remove('active')
   overlay.classList.remove('active')
-}
+}*/

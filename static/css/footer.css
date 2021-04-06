@@ -16,18 +16,20 @@ input[type=number] {
 
 /* --------------- FOOTER START --------------- */
 
-footer {
-  background-color: rgb(201, 201, 201);
-}
-
 .contact {
     width:100%;
     padding: 5em 1em;
     text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .contact__box {
-  background-color: var(--clr-white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    -moz-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    background-color: var(--clr-white);
     display: inline-grid;
     justify-items: center;
     align-items: center;
@@ -58,12 +60,12 @@ footer {
 }
 
 .form__title {
-    font-size: 1.1rem;
-    font-family: Raleway-Light;
-    color: var(--clr-black);
+    font-size: 1rem;
+    font-family: Raleway-Medium;
     letter-spacing: 2px;
     font-weight: bolder;
     line-height: 1.5em;
+    color: #3E4756;
 }
 
 .line-contact {
@@ -132,20 +134,20 @@ textarea {
     letter-spacing: 2px;
     width: 100%;
     border-radius: 2px;
-    border: 1px solid #889098;
+    border: 1px solid var(--clr-primary-1);
     padding: 1.5em;
     margin: 3em auto 0 auto;
     /* Ver si el transition está bien acá*/
     transition: 400ms ease-in-out;
-    background-color: #889098;
+    background-color: var(--clr-primary-1);
     color: var(--clr-white);
     font-family: Raleway-Light;
     text-transform: uppercase;
 }
 
 .form-button:hover {
-    background-color: #333333;
-    border: 1px solid #333333;
+    background-color: var(--clr-primary-2);
+    border: 1px solid var(--clr-primary-2);
     cursor: pointer;
 }
 
@@ -164,25 +166,24 @@ textarea {
 }
 
 .contact__title {
-  font-size: 1.1rem;
-  font-family: Raleway-Light;
-  color: var(--clr-black);
+  font-size: 1rem;
+  font-family: Quicksand;
   letter-spacing: 2px;
   font-weight: bolder;
   line-height: 1.5em;
+  color: #3E4756;
 }
 
 .contact__description {
-    color: var(--clr-black);
-    font-family: OpenSans;
-    font-size: .5rem;
+    font-family: Raleway-Medium;
+    font-size: .6rem;
     margin-bottom: .9em;
     font-weight: lighter;
+    color: #848c99;
 }
 
 .contact__description a {
     text-decoration: none;
-    color: var(--clr-black);
     text-transform: none;
 }
 
@@ -214,15 +215,18 @@ textarea {
 
 /* --------------- FOOTER END --------------- */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
 
 /* --------------- FOOTER BIG SCREEN START --------------- */
       
 .contact {
     padding: 4em;
+    max-width: none;
+    margin: 0;
   }
 
   .contact__box {
+    grid-gap: 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "form container"

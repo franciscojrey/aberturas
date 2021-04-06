@@ -17,23 +17,23 @@ function openFirst(){
     content3.style.transform = "translateX(100%)";
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
-    btn1.style.color ="rgb(55, 96, 121)";
+    btn1.style.color ="#0F70B7";
     btn2.style.color ="rgb(131, 131, 131)";
     btn3.style.color ="rgb(131, 131, 131)";
     btn4.style.color ="rgb(131, 131, 131)";
     btn5.style.color ="rgb(131, 131, 131)";
     /*
-    btn1.style.borderBottom = "4px solid rgb(55, 96, 121)";
+    btn1.style.borderBottom = "4px solid #0F70B7";
     btn2.style.borderBottom = "none";
     btn3.style.borderBottom = "none";
     btn4.style.borderBottom = "none";
     btn5.style.borderBottom = "none";
     */
-    btn1.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn2.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn3.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn4.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn1.style.backgroundColor = "white";
+    btn2.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     content1.style.transitionDelay = ".3s"
     content2.style.transitionDelay = "0s"
     content3.style.transitionDelay = "0s"
@@ -47,22 +47,22 @@ function openSecond(){
     content4.style.transform = "translateX(100%)";
     content5.style.transform = "translateX(100%)";
     btn1.style.color ="rgb(131, 131, 131)";
-    btn2.style.color ="rgb(55, 96, 90)";
+    btn2.style.color ="#0F70B7";
     btn3.style.color ="rgb(131, 131, 131)";
     btn4.style.color ="rgb(131, 131, 131)";
     btn5.style.color ="rgb(131, 131, 131)";
     /*
     btn1.style.borderBottom = "none";
-    btn2.style.borderBottom = "4px solid rgb(55, 96, 121)";
+    btn2.style.borderBottom = "4px solid #0F70B7";
     btn3.style.borderBottom = "none";
     btn4.style.borderBottom = "none";
     btn5.style.borderBottom = "none";
     */
-    btn1.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn3.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn4.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn1.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2.style.backgroundColor = "white";
+    btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     content1.style.transitionDelay = "0s"
     content2.style.transitionDelay = ".3s"
     content3.style.transitionDelay = "0s"
@@ -77,21 +77,21 @@ function openThird(){
     content5.style.transform = "translateX(100%)";
     btn1.style.color ="rgb(131, 131, 131)";
     btn2.style.color ="rgb(131, 131, 131)";
-    btn3.style.color ="rgb(55, 96, 121)";
+    btn3.style.color ="#0F70B7";
     btn4.style.color ="rgb(131, 131, 131)";
     btn5.style.color ="rgb(131, 131, 131)";
     /*
     btn1.style.borderBottom = "none";
     btn2.style.borderBottom = "none";
-    btn3.style.borderBottom = "4px solid rgb(55, 96, 121)";
+    btn3.style.borderBottom = "4px solid #0F70B7";
     btn4.style.borderBottom = "none";
     btn5.style.borderBottom = "none";
     */
-    btn1.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn3.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn4.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn1.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn3.style.backgroundColor = "white";
+    btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     content1.style.transitionDelay = "0s"
     content2.style.transitionDelay = "0s"
     content3.style.transitionDelay = ".3s"
@@ -107,20 +107,20 @@ function openFourth(){
     btn1.style.color ="rgb(131, 131, 131)";
     btn2.style.color ="rgb(131, 131, 131)";
     btn3.style.color ="rgb(131, 131, 131)";
-    btn4.style.color ="rgb(55, 96, 121)";
+    btn4.style.color ="#0F70B7";
     btn5.style.color ="rgb(131, 131, 131)";
     /*
     btn1.style.borderBottom = "none";
     btn2.style.borderBottom = "none";
     btn3.style.borderBottom = "none";
-    btn4.style.borderBottom = "4px solid rgb(55, 96, 121)";
+    btn4.style.borderBottom = "4px solid #0F70B7";
     btn5.style.borderBottom = "none";
     */
-    btn1.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn3.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn4.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn1.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn4.style.backgroundColor = "white";
+    btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     content1.style.transitionDelay = "0s"
     content2.style.transitionDelay = "0s"
     content3.style.transitionDelay = "0s"
@@ -137,19 +137,19 @@ function openFifth(){
     btn2.style.color ="rgb(131, 131, 131)";
     btn3.style.color ="rgb(131, 131, 131)";
     btn4.style.color ="rgb(131, 131, 131)";
-    btn5.style.color ="rgb(55, 96, 121)";
+    btn5.style.color ="#0F70B7";
     /*
     btn1.style.borderBottom = "none";
     btn2.style.borderBottom = "none";
     btn3.style.borderBottom = "none";
     btn4.style.borderBottom = "none";
-    btn5.style.borderBottom = "4px solid rgb(55, 96, 121)";
+    btn5.style.borderBottom = "4px solid #0F70B7";
     */
-    btn1.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn3.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn4.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
+    btn1.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn5.style.backgroundColor = "white";
     content1.style.transitionDelay = "0s"
     content2.style.transitionDelay = "0s"
     content3.style.transitionDelay = "0s"
@@ -169,12 +169,12 @@ var btn2content5 = document.getElementById("content5-btn2");
 var btn3content5 = document.getElementById("content5-btn3");
 
 function openFirstContent5(){
-    btn1content5.style.color ="rgb(55, 96, 121)";
+    btn1content5.style.color ="#0F70B7";
     btn2content5.style.color ="rgb(131, 131, 131)";
     btn3content5.style.color ="rgb(131, 131, 131)";
-    btn1content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn2content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn3content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";    
+    btn1content5.style.backgroundColor = "white";
+    btn2content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn3content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";    
     content5First.style.transform = "translateX(0)";
     content5Second.style.transform = "translateX(100%)";
     content5Third.style.transform = "translateX(100%)";
@@ -185,11 +185,11 @@ function openFirstContent5(){
 
 function openSecondContent5(){
     btn1content5.style.color ="rgb(131, 131, 131)";
-    btn2content5.style.color ="rgb(55, 96, 121)";
+    btn2content5.style.color ="#0F70B7";
     btn3content5.style.color ="rgb(131, 131, 131)";
-    btn1content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";
-    btn3content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";    
+    btn1content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2content5.style.backgroundColor = "white";
+    btn3content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";    
     content5First.style.transform = "translateX(100%)";
     content5Second.style.transform = "translateX(0)";
     content5Third.style.transform = "translateX(100%)";
@@ -201,9 +201,9 @@ function openSecondContent5(){
 function openThirdContent5(){
     btn1content5.style.color ="rgb(131, 131, 131)";
     btn2content5.style.color ="rgb(131, 131, 131)";
-    btn3content5.style.color ="rgb(55, 96, 121)";
-    btn1content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
-    btn2content5.style.backgroundColor = "rgba(224, 224, 224, 0.445)";
+    btn3content5.style.color ="#0F70B7";
+    btn1content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
+    btn2content5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn3content5.style.backgroundColor = "rgba(161, 161, 161, 0.445)";    
     content5First.style.transform = "translateX(100%)";
     content5Second.style.transform = "translateX(100%)";
