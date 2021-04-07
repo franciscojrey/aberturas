@@ -316,7 +316,6 @@ p {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  max-width: 1400px;
 }
 .btn-box{
   display: block;
@@ -484,6 +483,7 @@ p {
 
 #content5{
   width: 100%;
+  padding: .5em 2em;
   margin: 5% auto;
   position: absolute;
   transform: translateX(100%);
@@ -547,7 +547,7 @@ p {
   display: grid;
   margin: 5% auto;
   position: absolute;
-  transform: translateX(100%);
+  transform: translateX(110%);
   transition: .3s;
 }
 #content5Third{
@@ -555,7 +555,7 @@ p {
   display: grid;
   margin: 5% auto;
   position: absolute;
-  transform: translateX(100%);
+  transform: translateX(110%);
   transition: .3s;
 }
 .content5-next-arrow{
@@ -741,6 +741,9 @@ p {
 }
 /* --------------- PRODUCTS 4 BIG SCREEN END --------------- */
 
+
+
+
 /* --------------- PRODUCTS 5 BIG SCREEN START --------------- */
 .content5-btn-box{
   margin: 0 auto;
@@ -775,6 +778,7 @@ p {
 .products {
   background-color: white;
   height: 1300px;
+  max-width: 1400px;
 }
 .btn-box{
   padding: 2em 1em 0 1em;
@@ -788,6 +792,12 @@ p {
   background-color: rgba(136, 136, 136, 0.199);
   margin-right: .2em;
 }
+
+
+/* --------------- PRODUCTS BIG SCREEN END --------------- */
+
+/* --------------- PRODUCTS 5 BIG SCREEN START --------------- */
+
 #content5 {
   margin: 0;
 }
@@ -795,15 +805,32 @@ p {
   width: 100%;
   text-align: left;
   padding: .5em 1em 0 1em;
-  background-color: rgb(204, 204, 204);
 }
-
+.content5-btn-box button {
+  background-color: rgb(180, 180, 180);
+}
+#content5-btn1 {
+  background-color: rgb(226, 226, 226)
+}
+.content5-box {
+  background-color: rgb(226, 226, 226);
+}
+.container-content5 {
+  position: relative;
+}
 #content5First {
-  background-color: white;
+  margin: 0;
+  padding: 1em;
+}
+#content5Second {
+  margin: 0;
+  padding: 1em;
+}
+#content5Third{
   margin: 0;
   padding: 1em;
 }
 
-/* --------------- PRODUCTS BIG SCREEN END --------------- */
+/* --------------- PRODUCTS 5 BIG SCREEN END --------------- */
 
 }
