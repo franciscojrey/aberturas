@@ -316,7 +316,7 @@ p {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 .btn-box{
   display: block;
@@ -488,6 +488,7 @@ p {
   position: absolute;
   transform: translateX(100%);
   transition: .3s;
+  display: block;
 }
 .content5-btn-box{
   text-align: center;
@@ -514,6 +515,9 @@ p {
 }
 .carousel-container{
   margin: 0 auto;
+}
+.content5-box {
+  width: 100%;
 }
 .content5-box h1{
   padding-top: 1em;
@@ -770,7 +774,7 @@ p {
 }
 .products {
   background-color: white;
-  height: 1000px;
+  height: 1300px;
 }
 .btn-box{
   padding: 2em 1em 0 1em;
@@ -784,8 +788,20 @@ p {
   background-color: rgba(136, 136, 136, 0.199);
   margin-right: .2em;
 }
-.content{
-  padding: 2em;
+#content5 {
+  margin: 0;
+}
+.content5-btn-box {
+  width: 100%;
+  text-align: left;
+  padding: .5em 1em 0 1em;
+  background-color: rgb(204, 204, 204);
+}
+
+#content5First {
+  background-color: white;
+  margin: 0;
+  padding: 1em;
 }
 
 /* --------------- PRODUCTS BIG SCREEN END --------------- */
