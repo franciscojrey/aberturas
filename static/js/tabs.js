@@ -34,11 +34,11 @@ function openFirst(){
     btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
-    content1.style.transitionDelay = ".3s"
-    content2.style.transitionDelay = "0s"
-    content3.style.transitionDelay = "0s"
-    content4.style.transitionDelay = "0s"
-    content5.style.transitionDelay = "0s"
+    content1.style.transitionDelay = "-5s"
+    content2.style.transitionDelay = "-5s"
+    content3.style.transitionDelay = "-5s"
+    content4.style.transitionDelay = "-5s"
+    content5.style.transitionDelay = "-5s"
 }
 function openSecond(){
     content1.style.transform = "translateX(100%)";
@@ -63,11 +63,11 @@ function openSecond(){
     btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
-    content1.style.transitionDelay = "0s"
-    content2.style.transitionDelay = ".3s"
-    content3.style.transitionDelay = "0s"
-    content4.style.transitionDelay = "0s"
-    content5.style.transitionDelay = "0s"
+    content1.style.transitionDelay = "-5s"
+    content2.style.transitionDelay = "-5s"
+    content3.style.transitionDelay = "-5s"
+    content4.style.transitionDelay = "-5s"
+    content5.style.transitionDelay = "-5s"
 }
 function openThird(){
     content1.style.transform = "translateX(100%)";
@@ -92,11 +92,11 @@ function openThird(){
     btn3.style.backgroundColor = "white";
     btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
-    content1.style.transitionDelay = "0s"
-    content2.style.transitionDelay = "0s"
-    content3.style.transitionDelay = ".3s"
-    content4.style.transitionDelay = "0s"
-    content5.style.transitionDelay = "0s"
+    content1.style.transitionDelay = "-5s"
+    content2.style.transitionDelay = "-5s"
+    content3.style.transitionDelay = "-5s"
+    content4.style.transitionDelay = "-5s"
+    content5.style.transitionDelay = "-5s"
 }
 function openFourth(){
     content1.style.transform = "translateX(100%)";
@@ -121,11 +121,11 @@ function openFourth(){
     btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn4.style.backgroundColor = "white";
     btn5.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
-    content1.style.transitionDelay = "0s"
-    content2.style.transitionDelay = "0s"
-    content3.style.transitionDelay = "0s"
-    content4.style.transitionDelay = ".3s"
-    content5.style.transitionDelay = "0s"
+    content1.style.transitionDelay = "-5s"
+    content2.style.transitionDelay = "-5s"
+    content3.style.transitionDelay = "-5s"
+    content4.style.transitionDelay = "-5s"
+    content5.style.transitionDelay = "-5s"
 }
 function openFifth(){
     content1.style.transform = "translateX(100%)";
@@ -150,11 +150,11 @@ function openFifth(){
     btn3.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn4.style.backgroundColor = "rgba(136, 136, 136, 0.199)";
     btn5.style.backgroundColor = "white";
-    content1.style.transitionDelay = "0s"
-    content2.style.transitionDelay = "0s"
-    content3.style.transitionDelay = "0s"
-    content4.style.transitionDelay = "0s"
-    content5.style.transitionDelay = ".3s"
+    content1.style.transitionDelay = "-5s"
+    content2.style.transitionDelay = "-5s"
+    content3.style.transitionDelay = "-5s"
+    content4.style.transitionDelay = "-5s"
+    content5.style.transitionDelay = "-5s"
 }
 
 
@@ -178,9 +178,9 @@ function openFirstContent5(){
     content5First.style.transform = "translateX(0)";
     content5Second.style.transform = "translateX(110%)";
     content5Third.style.transform = "translateX(110%)";
-    content5First.style.transitionDelay = ".3s"
-    content5Second.style.transitionDelay = "0s"
-    content5Third.style.transitionDelay = "0s"
+    content5First.style.transitionDelay = "-5s"
+    content5Second.style.transitionDelay = "-5s"
+    content5Third.style.transitionDelay = "-5s"
 }
 
 function openSecondContent5(){
@@ -193,9 +193,9 @@ function openSecondContent5(){
     content5First.style.transform = "translateX(110%)";
     content5Second.style.transform = "translateX(0)";
     content5Third.style.transform = "translateX(110%)";
-    content5First.style.transitionDelay = "0s"
-    content5Second.style.transitionDelay = ".3s"
-    content5Third.style.transitionDelay = "0s"
+    content5First.style.transitionDelay = "-5s"
+    content5Second.style.transitionDelay = "-5s"
+    content5Third.style.transitionDelay = "-5s"
 }
 
 function openThirdContent5(){
@@ -208,7 +208,7 @@ function openThirdContent5(){
     content5First.style.transform = "translateX(110%)";
     content5Second.style.transform = "translateX(110%)";
     content5Third.style.transform = "translateX(0)";
-    content5First.style.transitionDelay = "0s"
-    content5Second.style.transitionDelay = "0s"
-    content5Third.style.transitionDelay = ".3s"
+    content5First.style.transitionDelay = "-5s"
+    content5Second.style.transitionDelay = "-5s"
+    content5Third.style.transitionDelay = "-5s"
 }
