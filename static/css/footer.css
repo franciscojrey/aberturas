@@ -61,7 +61,7 @@ input[type=number] {
 
 .form__title {
     font-size: 1rem;
-    font-family: Raleway-Medium;
+    font-family: var(--ff-tertiary);
     letter-spacing: 2px;
     font-weight: bolder;
     line-height: 1.5em;
@@ -92,7 +92,7 @@ input[type=number] {
   border: 0px;
   font-size: .6rem;
   letter-spacing: 2px;
-  font-family: Raleway-Light;
+  font-family: var(--ff-secondary);
   font-weight: bolder;
   padding: 1.2em;
   color: rgb(100, 100, 100);
@@ -101,7 +101,7 @@ input[type=number] {
 .form-item select option {
   font-size: .6rem;
   letter-spacing: 2px;
-  font-family: Raleway-Light;
+  font-family: var(--ff-secondary);
   font-weight: bolder;
 }
 
@@ -115,7 +115,7 @@ input[type=number] {
     border: 0px;
     font-size: .6rem;
     letter-spacing: 2px;
-    font-family: Raleway-Light;
+    font-family: var(--ff-secondary);
     font-weight: bolder;
     padding: 1em;
 }
@@ -141,7 +141,7 @@ textarea {
     transition: 400ms ease-in-out;
     background-color: var(--clr-primary-1);
     color: var(--clr-white);
-    font-family: Raleway-Light;
+    font-family: var(--ff-secondary);
     text-transform: uppercase;
 }
 
@@ -167,7 +167,7 @@ textarea {
 
 .contact__title {
   font-size: 1rem;
-  font-family: Quicksand;
+  font-family: var(--ff-tertiary);
   letter-spacing: 2px;
   font-weight: bolder;
   line-height: 1.5em;
@@ -175,7 +175,7 @@ textarea {
 }
 
 .contact__description {
-    font-family: Raleway-Medium;
+    font-family: var(--ff-secondary);
     font-size: .6rem;
     margin-bottom: .9em;
     font-weight: lighter;
@@ -194,7 +194,7 @@ textarea {
 
 .contact-message {
     text-align: center;
-    font-family: Raleway;
+    font-family: var(--ff-secondary);
 }
 
 .success {

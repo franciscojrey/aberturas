@@ -6,53 +6,18 @@ Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 @font-face {
-  font-family: 'Colfax';
-  src: url(../fonts/Colfax-Regular.otf);
+  font-family: 'Goldman';
+  src: url(../fonts/Goldman-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Raleway-Thin';
-  src: url(../fonts/Raleway-Thin.ttf);
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
-  font-family: 'Raleway-Light';
-  src: url(../fonts/Raleway-Light.ttf);
-}
-
-@font-face {
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Raleway-Medium';
-  src: url(../fonts/Raleway-Medium.ttf);
-}
-
-@font-face {
-  font-family: 'Oswald';
-  src: url(../fonts/Oswald-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Oswald-Light';
-  src: url(../fonts/Oswald-Light.ttf);
-}
-
-@font-face {
-  font-family: 'Oswald-Medium';
-  src: url(../fonts/Oswald-Medium.ttf);
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: url(../fonts/OpenSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Quicksand';
-  src: url(../fonts/Quicksand-Regular.ttf);
+  font-family: 'Montserrat-Bold';
+  src: url(../fonts/Montserrat-Bold.ttf);
 }
 
 /*
@@ -62,15 +27,16 @@ Variables
 */
 
 :root {
-  --clr-primary-1: #0F70B7;
+  --clr-primary-1: #1e71b8;
   --clr-primary-2: #428BD5;
   --clr-primary-3: #65A8F4;
   --clr-primary-4: #86C5FF;
   --clr-primary-5: #A7E3FF;
   --clr-white: #fff;
   --clr-black: #222;
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: 'Open Sans', sans-serif;
+  --ff-primary: 'Goldman', sans-serif;
+  --ff-secondary: 'Montserrat', sans-serif;
+  --ff-tertiary: 'Montserrat-Bold', sans-serif;
   --transition: all 0.3s ease;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -99,7 +65,6 @@ Global Styles
 
 html {
   box-sizing: border-box;
-  font-family: Raleway;
   color: var(--clr-text);
   font-size: 1.25rem;
 }
@@ -120,6 +85,7 @@ ul {
 }
 a {
   text-decoration: none;
+  font-family: var(--ff-secondary);
 }
 h1,
 h2,
@@ -196,7 +162,7 @@ p {
 .carousel-caption h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: Raleway-Light;
+  font-family: var(--ff-primary);
   letter-spacing: .15rem;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 3em;
@@ -213,7 +179,7 @@ p {
   padding: 1em 1.5em;
   transition: 400ms ease-in-out;
   color: var(--clr-white);
-  font-family: Raleway-Light;
+  font-family: var(--ff-secondary);
 }
 
 .btn-lg:hover {
@@ -259,15 +225,15 @@ p {
   grid-area: description
 }
 .services-description h2{
-  font-family: Quicksand;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 .services-description h4{
-  font-family: Raleway-Thin;
+  font-family: var(--ff-tertiary);
   color: #A2ACBD;
 }
 .services-description p{
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   color: #848c99;
 }
 .btn-contact {
@@ -275,7 +241,7 @@ p {
   transition: .5s ease all;
   padding: 1em;
   color: white;
-  font-family: Quicksand;
+  font-family: var(--ff-secondary);
   border: 1px solid var(--clr-primary-1);
   color: var(--clr-primary-1);
   text-align: center;
@@ -288,7 +254,7 @@ p {
   transition: .5s ease all;
   padding: 1em;
   color: white;
-  font-family: Quicksand;
+  font-family: var(--ff-secondary);
   border: 1px solid var(--clr-primary-1);;
   color: var(--clr-primary-1);;
   text-align: center;
@@ -322,7 +288,7 @@ p {
 }
 
 .btn-box button {
-  font-family: Raleway-Light;
+  font-family: var(--ff-secondary);
   width: 100%;
   background: rgba(224, 224, 224, 0.445);
   border: none;
@@ -341,6 +307,9 @@ p {
 .btn-box button:hover {
   background: rgba(161, 161, 161, 0.445) !important;
 }
+.btn-box-buttons:hover {
+  background: white !important;
+}
 .content-right img {
   width: 350px;
 }
@@ -357,13 +326,13 @@ p {
   flex-basis: 50%;
 }
 .content-left h1{
-  font-family: Raleway-Light;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 .content-left p{
   font-size: .6rem;
   padding: 30px 0;
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   color: #848c99;
 }
 .content-right{
@@ -397,16 +366,16 @@ p {
   "img"
 }
 
-#content3 h1 {
+#content3 h4 {
   padding-top: 1em;
   margin-bottom: 0;
   width: 100%;
   grid-area: title;
-  font-family: Quicksand;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 #content3 p {
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   font-size: .8rem;
   padding: 2em 0;
   grid-area: text;
@@ -443,14 +412,14 @@ p {
   margin: 0;
   width: 100%;
   grid-area: title;
-  font-family: Quicksand;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 .content4-text {
   font-size: .8rem;
   padding: 2em 0;
   grid-area: text;
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   color: #848c99;
 }
 .content4-img {
@@ -462,14 +431,14 @@ p {
   margin: 0;
   width: 100%;
   grid-area: title2;
-  font-family: Quicksand;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 .content4-text2 {
   font-size: .8rem;
   padding: 2em 0;
   grid-area: text2;
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   color: #848c99;
 }
 .content4-img2 {
@@ -497,7 +466,7 @@ p {
   margin: 0 auto;
 }
 .content5-btn-box button {
-  font-family: Raleway-Light;
+  font-family: var(--ff-secondary);
   width: 100%;
   background: rgba(224, 224, 224, 0.445);
   border: none;
@@ -519,14 +488,14 @@ p {
 .content5-box {
   width: 100%;
 }
-.content5-box h1{
+.content5-box h4{
   padding-top: 1em;
   margin: 0;
-  font-family: Quicksand;
+  font-family: var(--ff-primary);
   color: #3E4756;
 }
 .content5-box p {
-  font-family: Raleway-Medium;
+  font-family: var(--ff-secondary);
   font-size: .8rem;
   color: #848c99;
   padding: 2em 0;
@@ -687,6 +656,38 @@ p {
 
 /* --------------- SERVICES BIG SCREEN END --------------- */
 
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+/* --------------- PRODUCTS BIG SCREEN START --------------- */
+.products-container {
+  background-color: rgb(233, 233, 233);
+}
+.products {
+  background-color: white;
+  height: 1300px;
+  max-width: 1400px;
+}
+.btn-box{
+  padding: 2em 1em 0 1em;
+  display: flex;
+  background-color: rgba(228, 228, 228, 0.445);
+}
+.btn-box button {
+  font-size: .8rem;
+  width: auto;
+  margin-bottom: 0;
+  background-color: rgba(136, 136, 136, 0.199);
+  margin-right: .2em;
+}
+
+
+/* --------------- PRODUCTS BIG SCREEN END --------------- */
+
 /* --------------- PRODUCTS 3 BIG SCREEN  START --------------- */
 
 #content3{
@@ -696,7 +697,7 @@ p {
   "img text"
 }
 
-#content3 h1 {
+#content3 h4 {
   padding-bottom: .5em;
 }
 
@@ -741,53 +742,6 @@ p {
 }
 /* --------------- PRODUCTS 4 BIG SCREEN END --------------- */
 
-
-
-
-/* --------------- PRODUCTS 5 BIG SCREEN START --------------- */
-
-.content5-btn-box button {
-  width: auto;
-  margin-bottom: 0;
-}
-
-.content5-img{
-  width: 100%;
-}
-
-/* --------------- PRODUCTS 5 BIG SCREEN END --------------- */
-
-}
-
-
-@media screen and (min-width: 1000px) {
-
-
-/* --------------- PRODUCTS BIG SCREEN START --------------- */
-.products-container {
-  background-color: rgb(233, 233, 233);
-}
-.products {
-  background-color: white;
-  height: 1300px;
-  max-width: 1400px;
-}
-.btn-box{
-  padding: 2em 1em 0 1em;
-  display: flex;
-  background-color: rgba(228, 228, 228, 0.445);
-}
-.btn-box button {
-  font-size: .8rem;
-  width: auto;
-  margin-bottom: 0;
-  background-color: rgba(136, 136, 136, 0.199);
-  margin-right: .2em;
-}
-
-
-/* --------------- PRODUCTS BIG SCREEN END --------------- */
-
 /* --------------- PRODUCTS 5 BIG SCREEN START --------------- */
 
 #content5 {
@@ -800,6 +754,9 @@ p {
 }
 .content5-btn-box button {
   background-color: rgb(180, 180, 180);
+  width: auto;
+  margin-bottom: 0;
+  font-size: .8rem;
 }
 #content5-btn1 {
   background-color: rgb(226, 226, 226)
@@ -821,6 +778,9 @@ p {
 #content5Third{
   margin: 0;
   padding: 1em;
+}
+.content5-img{
+  width: 100%;
 }
 
 /* --------------- PRODUCTS 5 BIG SCREEN END --------------- */
