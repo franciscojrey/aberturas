@@ -310,9 +310,7 @@ p {
 .btn-box-buttons:hover {
   background: white !important;
 }
-.content-right img {
-  width: 350px;
-}
+
 .content{
   display: flex;
   justify-content: top;
@@ -321,23 +319,6 @@ p {
   position: absolute;
   transform: translateX(100%);
   transition: .3s;
-}
-.content-left{
-  flex-basis: 50%;
-}
-.content-left h1{
-  font-family: var(--ff-primary);
-  color: #3E4756;
-}
-.content-left p{
-  font-size: .6rem;
-  padding: 30px 0;
-  font-family: var(--ff-secondary);
-  color: #848c99;
-}
-.content-right{
-  flex-basis: 50%;
-  text-align: center;
 }
 #content1{
   transform: translateX(0px);
@@ -348,7 +329,49 @@ p {
 }
 /* --------------- PRODUCTS END --------------- */
 
+/* --------------- PRODUCTS 1 START --------------- */
 
+#content1{
+  width: 100%;
+  transition: .3s;
+}
+
+.carousel-container-content1{
+  width: 100%;
+}
+
+.carousel__block-content1{
+  max-width: none;
+}
+.content1_carousel{
+  padding: 0 6em;
+  grid-gap: 2em;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas: 
+  "title1 title2 title2"
+  "img1 text img2";
+}
+.content1__title1{
+  grid-area: title1;
+}
+.content1__img1{
+  grid-area: img1;
+  max-width: 300px;
+}
+.content1__title2{
+  grid-area: title2;
+  text-align: center;
+}
+.content1__text{
+  grid-area: text;
+}
+.content1__img2{
+  grid-area: img2;
+  max-width: 400px;
+}
+
+/* --------------- PRODUCTS 1 END --------------- */
 
 /* --------------- PRODUCTS 3 START --------------- */
 
