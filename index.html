@@ -134,9 +134,7 @@
             <button id="btn4" onclick="openFourth()">Vidrios y mamparas</button>
             <button id="btn5" onclick="openFifth()">Persianas, postigones y mosquiteros</button>
         </div>
-        
-        
-        
+        <!--
         <div class="content" id="content1">
           <div class="carousel-container carousel-container-content1">
             <div class="carousel__block carousel__block-content1">
@@ -145,10 +143,36 @@
                     <div class="carousel-item active content1-carousel">
                       <div class="content1_carousel">
                         <h4 class="content1__title1">Tipologias</h4>
-                        <img class="content1__img1" src="static/img/producto-modena2.png" alt="">
+                        <div class="content1__container content1__img1">
+                          <div class="content1__carousel">
+                            <div class="content1__slider">
+                              <section><img src="static/img/producto-a30-2.png" alt=""></section>
+                              <section><img src="static/img/producto-a30-4.png" alt=""></section>
+                            </div>
+                            <div class="content1__control">
+                              <ul>
+                                <li class="content1__selected"></li>
+                                <li></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                         <h4 class="content1__title2">Modena</h4>
                         <p class="content1__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae id odio rem excepturi quasi inventore saepe explicabo reiciendis tempore ipsum! Sapiente ea earum dolorum! Architecto, quaerat ducimus. Nostrum voluptas distinctio enim repudiandae, amet rerum rem. Earum corrupti velit ullam culpa.</p>
-                        <img class="content1__img2" src="static/img/producto-modena1.png" alt="">
+                        <div class="content1__container content1__img2">
+                          <div class="content1__carousel">
+                            <div class="content1__slider">
+                              <section><img src="static/img/producto-a30-1.png" alt=""></section>
+                              <section><img src="static/img/producto-a30-3.png" alt=""></section>
+                            </div>
+                            <div class="content1__control">
+                              <ul>
+                                <li class="content1__selected"></li>
+                                <li></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="carousel-item content1-carousel">
@@ -182,9 +206,72 @@
             </div>
           </div>
         </div>
+-->
+        <div class="content" id="content1">
+          <div class="content1-btn-box">
+            <button id="content1-btn1" onclick="openFirstContent1()">Modena</button>
+            <button id="content1-btn2" onclick="openSecondContent1()">A30</button>
+            <button id="content1-btn3" onclick="openThirdContent1()">Herrero</button>
+          </div>
+          <div class="container-content1">            
+            <div class="content1-box" id="content1First">
+              <div class="content1__container">
+                <div class="content1__carousel">
+                  
+                  <div class="content1__slider content1__first-slider">
+                    <section><img src="static/img/producto-a30-1.png" alt=""></section>
+                    <section><img src="static/img/producto-a30-2.png" alt=""></section>
+                  </div>
+                  <div class="content1__control content1__first-control">
+                    <ul>
+                      <li class="content1__selected"></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container-content1">    
+            <div class="content1-box" id="content1Second">
+              <div class="content1__container">
+                <div class="content1__carousel">
 
-
-
+                  <div class="content1__slider content1__second-slider">
+                    <section><img src="static/img/producto-a30-1.png" alt=""></section>
+                    <section><img src="static/img/producto-a30-2.png" alt=""></section>
+                  </div>
+                  <div class="content1__control content1__second-control">
+                    <ul>
+                      <li class="content1__selected"></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-content1">
+            <div class="content1-box" id="content1Third">
+              <div class="content1__container">
+                <div class="content1__carousel">
+                  
+                  <div class="content1__slider content1__third-slider">
+                    <section><img src="static/img/producto-a30-1.png" alt=""></section>
+                    <section><img src="static/img/producto-a30-2.png" alt=""></section>
+                  </div>
+                  <div class="content1__control content1__third-control">
+                    <ul>
+                      <li class="content1__selected"></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="content" id="content2">
             <div class="content-left">
@@ -215,17 +302,15 @@
         
         
         <div class="content" id="content5">
-          
-
             <div class="content5-btn-box">
               <button id="content5-btn1" onclick="openFirstContent5()">Persianas</button>
               <button id="content5-btn2" onclick="openSecondContent5()">Postigones</button>
               <button id="content5-btn3" onclick="openThirdContent5()">Mosquiteros</button>
             </div>
             <div class="container-content5">            
-            <div class="content5-box" id="content5First">
-              <h4>Persianas</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
+              <div class="content5-box" id="content5First">
+                <h4>Persianas</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
                 <div class="carousel-container">
                       <div class="carousel__block">
@@ -257,10 +342,6 @@
                 </div>
               </div>
   
-           
-           
-           
-           
               <div class="content5-box" id="content5Second">
               <h4>Postigones</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
@@ -295,9 +376,9 @@
                 </div>
               </div>
   
-            <div class="content5-box" id="content5Third">
-              <h4>Mosquiteros</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
+              <div class="content5-box" id="content5Third">
+                <h4>Mosquiteros</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eum dignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam, quisquam, quos vero consequuntur eum consequatur?<br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni porro sapiente eumdignissimos animi quisquam? Hic magni in, cum officiis nisi sed voluptas numquam,quisquam, quos vero consequuntur eum consequatur?</p>
                 <div class="carousel-container">
                       <div class="carousel__block">
@@ -327,8 +408,8 @@
                           </div>
                       </div>
                 </div>
+              </div>
             </div>
-          </div>
         </div>
     </section>
 
@@ -403,7 +484,46 @@
       </div>
   </footer>
 
+
+  <!---------------------->
+
+
+
+
+  <div class="content1__container">
+    <div class="content1__carousel">
+      <div class="content1__slider">
+        <section><img src="static/img/producto-a30-1.png" alt=""></section>
+        <section><img src="static/img/producto-a30-2.png" alt=""></section>
+        <section><img src="static/img/producto-a30-3.png" alt=""></section>
+        <section><img src="static/img/producto-a30-4.png" alt=""></section>
+      </div>
+      <div class="content1__control">
+        <ul>
+          <li class="content1__selected"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<!---------------------->
+
+
+
+
+
+
+
+
+
+
+
   <!-- JAVASCRIPT -->
+  <script src="static/js/slider.js"></script>
+  <script src="static/js/slider2.js"></script>
+  <script src="static/js/slider3.js"></script>
   <script src="static/js/app.js"></script>
   <script src="static/js/popup.js"></script>
   <script src="static/js/modal.js"></script>

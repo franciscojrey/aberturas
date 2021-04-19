@@ -128,6 +128,59 @@ function openFifth(){
 }
 
 
+/* TAB CONTENT 1 */
+
+var content1First = document.getElementById("content1First");
+var content1Second = document.getElementById("content1Second");
+var content1Third = document.getElementById("content1Third");
+var btn1content1 = document.getElementById("content1-btn1");
+var btn2content1 = document.getElementById("content1-btn2");
+var btn3content1 = document.getElementById("content1-btn3");
+
+function openFirstContent1(){
+    btn1content1.style.color ="#0F70B7";
+    btn2content1.style.color ="rgb(131, 131, 131)";
+    btn3content1.style.color ="rgb(131, 131, 131)";
+    btn1content1.style.backgroundColor = "rgb(226, 226, 226)";
+    btn2content1.style.backgroundColor = "rgb(180, 180, 180)";
+    btn3content1.style.backgroundColor = "rgb(180, 180, 180)";    
+    content1First.style.transform = "translateX(0)";
+    content1Second.style.transform = "translateX(110%)";
+    content1Third.style.transform = "translateX(110%)";
+    content1First.style.transitionDelay = "-5s"
+    content1Second.style.transitionDelay = "-5s"
+    content1Third.style.transitionDelay = "-5s"
+}
+
+function openSecondContent1(){
+    btn1content1.style.color ="rgb(131, 131, 131)";
+    btn2content1.style.color ="#0F70B7";
+    btn3content1.style.color ="rgb(131, 131, 131)";
+    btn1content1.style.backgroundColor = "rgb(180, 180, 180)";
+    btn2content1.style.backgroundColor = "rgb(226, 226, 226)";
+    btn3content1.style.backgroundColor = "rgb(180, 180, 180)";    
+    content1First.style.transform = "translateX(110%)";
+    content1Second.style.transform = "translateX(0)";
+    content1Third.style.transform = "translateX(110%)";
+    content1First.style.transitionDelay = "-5s"
+    content1Second.style.transitionDelay = "-5s"
+    content1Third.style.transitionDelay = "-5s"
+}
+
+function openThirdContent1(){
+    btn1content1.style.color ="rgb(131, 131, 131)";
+    btn2content1.style.color ="rgb(131, 131, 131)";
+    btn3content1.style.color ="#0F70B7";
+    btn1content1.style.backgroundColor = "rgb(180, 180, 180)";
+    btn2content1.style.backgroundColor = "rgb(180, 180, 180)";
+    btn3content1.style.backgroundColor = "rgb(226, 226, 226)";    
+    content1First.style.transform = "translateX(110%)";
+    content1Second.style.transform = "translateX(110%)";
+    content1Third.style.transform = "translateX(0)";
+    content1First.style.transitionDelay = "-5s"
+    content1Second.style.transitionDelay = "-5s"
+    content1Third.style.transitionDelay = "-5s"
+}
 
 /* TAB CONTENT 5 */
 

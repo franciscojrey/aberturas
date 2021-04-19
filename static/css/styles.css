@@ -331,6 +331,9 @@ p {
 
 /* --------------- PRODUCTS 1 START --------------- */
 
+
+
+/*
 #content1{
   width: 100%;
   transition: .3s;
@@ -369,6 +372,133 @@ p {
 .content1__img2{
   grid-area: img2;
   max-width: 400px;
+}*/
+
+
+#content1{
+  width: 100%;
+  padding: .5em 2em;
+  margin: 5% auto;
+  position: absolute;
+  /*transform: translateX(100%);*/
+  transition: .3s;
+  display: block;
+  transform: translateX(0);
+}
+.content1-btn-box{
+  text-align: center;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+.content1-btn-box button {
+  font-family: var(--ff-secondary);
+  width: 100%;
+  background: rgba(224, 224, 224, 0.445);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: .5em;
+  color: rgb(131, 131, 131);
+  transition: ease-in-out .2s;
+}
+.content1-btn-box button:hover{
+  background: rgba(161, 161, 161, 0.445) !important;
+}
+/*
+.carousel-container{
+  margin: 0 auto;
+}
+*/
+.content1-box {
+  width: 100%;
+}
+/*
+.content1-box h4{
+  padding-top: 1em;
+  margin: 0;
+  font-family: var(--ff-primary);
+  color: #3E4756;
+}
+.content1-box p {
+  font-family: var(--ff-secondary);
+  font-size: .8rem;
+  color: #848c99;
+  padding: 2em 0;
+}
+*/
+#content1First{
+  display: grid;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(0px);
+  transition: .3s;
+}
+#content1Second{
+  display: grid;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(110%);
+  transition: .3s;
+}
+#content1Third{
+  display: grid;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(110%);
+  transition: .3s;
+}
+.container-content1 {
+  position: relative;
+}
+.content1__container {
+  margin:20px auto;
+  max-width: 400px;
+}
+.content1__carousel {
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+}
+.content1__slider {
+  display: flex;
+  height: 100%;
+  width: 200%;
+}
+.content1__slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0 0 2em 0;
+}
+.content1__slider img{
+  max-width: 300px;
+}
+.content1__control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.content1__control ul li {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.content1__control ul li.content1__selected {
+  background: #333;
 }
 
 /* --------------- PRODUCTS 1 END --------------- */
@@ -620,6 +750,7 @@ p {
     place-items: center;
   }
 
+
 @media screen and (min-width: 800px) {
 
   .icon-whatsapp{
@@ -710,6 +841,47 @@ p {
 
 
 /* --------------- PRODUCTS BIG SCREEN END --------------- */
+
+/* --------------- PRODUCTS 1 BIG SCREEN START --------------- */
+
+#content1 {
+  margin: 0;
+}
+.content1-btn-box {
+  width: 100%;
+  text-align: left;
+  padding: .5em 1em 0 1em;
+}
+.content1-btn-box button {
+  background-color: rgb(180, 180, 180);
+  width: auto;
+  margin-bottom: 0;
+  font-size: .8rem;
+}
+#content1-btn1 {
+  background-color: rgb(226, 226, 226)
+}
+.content1-box {
+  background-color: rgb(226, 226, 226);
+}
+#content1First {
+  margin: 0;
+  padding: 1em;
+}
+#content1Second {
+  margin: 0;
+  padding: 1em;
+}
+#content1Third{
+  margin: 0;
+  padding: 1em;
+}
+.content1-img{
+  width: 100%;
+}
+
+/* --------------- PRODUCTS 1 BIG SCREEN END --------------- */
+
 
 /* --------------- PRODUCTS 3 BIG SCREEN  START --------------- */
 
@@ -809,3 +981,11 @@ p {
 /* --------------- PRODUCTS 5 BIG SCREEN END --------------- */
 
 }
+
+
+
+
+
+
+
+
