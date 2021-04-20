@@ -231,10 +231,13 @@ p {
 .services-description h4{
   font-family: var(--ff-tertiary);
   color: #A2ACBD;
+  font-size: 1rem;
 }
 .services-description p{
   font-family: var(--ff-secondary);
   color: #848c99;
+  font-size: .8rem;
+  letter-spacing: 1.2px;
 }
 .btn-contact {
   grid-area: btn-contact;
